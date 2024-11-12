@@ -1,0 +1,154 @@
+@media (max-width:680px) {
+    .xs {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+    }
+
+    .media-fs {
+        font-size: 1em;
+    }
+
+    .xs-dn {
+        display: none;
+    }
+
+    .xs-12 {
+        width: 100%;
+        display: block;
+        margin: 0;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .xs-db {
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+    }
+
+    .media-learn {
+        margin-top: 60px;
+        text-align: left;
+    }
+
+    .about-img {
+        height: 400px;
+        width: 400px;
+        margin: auto;
+        top: 50px;
+    }
+
+    .exp-media {
+        display: block;
+        text-align: center;
+        height: 400px;
+        width: 400px;
+        margin-top: 50px;
+        font-size: 1em;
+    }
+
+    .xs-12-2 {
+        width: 100%;
+        display: inline-block;
+        margin: auto;
+        font-size: 16px;
+    }
+
+    .xs-6 {
+        width: 50%;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .xs-3 {
+        background-color: white;
+        font-size: 3em;
+    }
+
+    .fa-bars {
+        position: absolute;
+        right: 30px;
+        top: 22px;
+        color: rgb(71, 68, 68);
+    }
+
+    .banner {
+        background-size: 100%;
+        height: 200px;
+    }
+
+    .banner>div>h1 {
+        font-size: 1em;
+        margin-left: 30px;
+    }
+
+    .banner div,
+    p {
+        font-size: 1em;
+        margin-left: 30px;
+    }
+
+    .service-bg {
+        background-image: url(main-img.jpg);
+        height: 400px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.664);
+        background-blend-mode: multiply;
+    }
+
+    .media-ml {
+        margin-left: 55px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .our-office {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .mp0 {
+        margin-left: -100px;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main-content {
+        margin-right: -30px;
+    }
+
+    .m-menu > .toggle{
+        display: block;
+        padding: 0 0 30px 30px;
+    }
+
+    .m-menu > .toggle{
+        color: red;
+    }
+
+    .toggle:hover .menubar {
+        display: block;
+        position: absolute;
+        background-color: white;
+        height: auto;
+        text-align: center;
+        width: 470px;
+        z-index: 4;
+        margin: auto;
+        top: 30px;
+        left: -470px;
+    }
+
+    .toggle:hover .menubar a {
+        display: block;
+    }
+
+}
